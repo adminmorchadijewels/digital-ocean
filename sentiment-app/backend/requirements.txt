@@ -1,0 +1,12 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Data validation
+pydantic==2.7.1
+
+# Sentiment analysis (lightweight, no GPU required)
+vaderSentiment==3.3.2
+
+# ASGI form parsing (required for FastAPI)
+python-multipart==0.0.9
